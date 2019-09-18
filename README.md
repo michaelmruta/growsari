@@ -19,14 +19,14 @@ see screenshots folder
  ✔ Messages are sorted in reverse chronological order @done (19-09-17 04:20)<br />
 
  ✔ 1a. Get User for GraphQL @done (19-09-17 04:20)<br />
- ☐ 1b. Retrieve a user for GraphQL (added)
+ ☐ 1b. Retrieve a user for GraphQL (added)<br />
  ✔ 2. User Login @done (19-09-17 04:20)<br />
  ✔ 3. Create Topic @done (19-09-17 04:20)<br />
  ✔ 4. Update Topic @done (19-09-17 04:20)<br />
  ✔ 5. Delete Topic @done (19-09-17 04:20)<br />
  ✔ 6. Create Message in a Topic @done (19-09-17 04:20)<br />
  ✔ 7a. Retrieve all topics @done (19-09-17 04:20)<br />
- ☐ 7b. Retrieve a topic for GraphQL (added)
+ ☐ 7b. Retrieve a topic for GraphQL (added)<br />
  ✔ include not working @done (19-09-17 04:20)<br />
  ✔ 8. Retrieve all messages in a topic @done (19-09-17 04:20)<br />
  

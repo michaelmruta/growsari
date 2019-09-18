@@ -83,7 +83,7 @@ docker run --name growsari-api -d --link mysql:db -p 80:80 michaelmruta/growsari
 #### Container 3 -> ui-server
 ```
 docker pull michaelmruta/growsari:ui-server
-docker run --name growsari-ui -d --link mysql:db -p 8080:8080 michaelmruta/growsari:ui-server
+docker run -p 8080:8080 michaelmruta/growsari:ui-server
 ```
 
 Tests

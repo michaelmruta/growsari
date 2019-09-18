@@ -108,3 +108,10 @@ mutation {
 ```
 
 #### web app on http://localhost:8080/
+
+### These are the important files:
+
+growsari-client/src/App.vue<br />
+server/schema<br />
+server/index.js<br />
+server/test.js<br />

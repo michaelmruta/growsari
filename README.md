@@ -68,7 +68,7 @@ Notes:
 Docker
 ---
 
-#### Container 1 -> mysql (password used is root, db will be craeted automatically)
+#### Container 1 -> mysql (password used is root, db will be created automatically)
 ```
 docker pull mysql
 docker run --name=mysql -e MYSQL_ROOT_PASSWORD=root -d mysql 
@@ -76,14 +76,14 @@ docker run --name=mysql -e MYSQL_ROOT_PASSWORD=root -d mysql
 
 #### Container 2 -> api-server
 ```
-docker pull michaelmruta/api-server
-docker run --name growsari-api -d --link mysql:db -p 80:80 michaelmruta/api-server
+docker pull michaelmruta/growsari:api-server
+docker run --name growsari-api -d --link mysql:db -p 80:80 michaelmruta/growsari:api-server
 ```
 
 #### Container 3 -> ui-server
 ```
-docker pull michaelmruta/ui-server
-docker run --name growsari-ui -d --link mysql:db -p 8080:8080 michaelmruta/ui-server
+docker pull michaelmruta/growsari:ui-server
+docker run --name growsari-ui -d --link mysql:db -p 8080:8080 michaelmruta/growsari:ui-server
 ```
 
 Tests

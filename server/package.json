@@ -959,7 +959,7 @@
       "resolved": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
       "version": "5.0.1"
     },
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "jsprim": {
       "integrity": "sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=",
       "requires": {

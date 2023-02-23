@@ -1469,7 +1469,7 @@
       "resolved": "https://registry.npmjs.org/send/-/send-0.17.1.tgz",
       "version": "0.17.1"
     },
-    "sequelize": "^5.18.4",
+    "sequelize": "^6.28.2",
     "sequelize-pool": {
       "integrity": "sha512-Ibz08vnXvkZ8LJTiUOxRcj1Ckdn7qafNZ2t59jYHMX1VIebTAOYefWdRYFt6z6+hy52WGthAHAoLc9hvk3onqA==",
       "resolved": "https://registry.npmjs.org/sequelize-pool/-/sequelize-pool-2.3.0.tgz",
